@@ -14,6 +14,18 @@ for dir in src/*/; do
   rm -f debs/${id}_*.deb
   dpkg-deb -Zgzip --root-owner-group -b "$tmp" "debs/${id}_${ver}_${arch}.deb" >/dev/null; rm -rf "$tmp"
 done
+# Add any package missing from sections.txt, using the section from its .deb
+touch sections.txt
+for deb in debs/*.deb; do
+  id=$(dpkg-deb -f "$deb" Package)
+  if ! grep -qE "^[[:space:]]*${id//./\\.}[[:space:]]" sections.txt; then
+    sec=$(dpkg-deb -f "$deb" Section | tr '_' ' '); [ -n "$sec" ] || sec="Tweaks"
+    [ -z "$(tail -c1 sections.txt)" ] || echo >> sections.txt
+    echo "$id  $sec" >> sections.txt
+    echo "listed $id in sections.txt ($sec)"
+  fi
+done
+
 # sections.txt: one line per package -> "package.id  Section Name"
 override=/dev/null
 if [ -f sections.txt ]; then
