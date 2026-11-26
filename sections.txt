@@ -1,4 +1,4 @@
 # Put each package in a folder (section) in Cydia.
 # Format: package-id  Section Name
-# Find a package's id in Cydia (package page -> Details) or ask Claude.
+# Find a package's id in Cydia (package page -> Details)
 com.omar.helloworld  Tweaks
