@@ -1,0 +1,23 @@
+name: Build repo
+on:
+  push:
+    paths-ignore: ['Packages*', 'Release']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y dpkg-dev
+      - name: Point repo.conf at this GitHub Pages site
+        run: sed -i "s#^REPO_URL=.*#REPO_URL=\"https://${GITHUB_REPOSITORY_OWNER,,}.github.io/${GITHUB_REPOSITORY#*/}\"#" repo.conf
+      - run: bash build.sh
+      - name: Commit index
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Rebuild repo index"
+          git push
