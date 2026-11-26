@@ -1,0 +1,10 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ali's Repo</title>
+<style>body{font-family:-apple-system,sans-serif;text-align:center;padding:40px 16px;background:#f2f2f7}
+img{width:96px;border-radius:22px}a.btn{display:block;max-width:280px;margin:10px auto;padding:14px;border-radius:12px;background:#007aff;color:#fff;text-decoration:none;font-weight:600}
+code{background:#fff;padding:6px 10px;border-radius:8px;display:inline-block;margin-top:12px}</style></head>
+<body><img src="CydiaIcon.png"><h1>Ali's Repo</h1><p>Tweaks and tools by Ali Merheb</p>
+<a class="btn" id="cydia">Add to Cydia</a><a class="btn" id="sileo">Add to Sileo</a><a class="btn" id="zebra">Add to Zebra</a>
+<code id="url"></code>
+<script>const u=location.href.replace(/index\.html$/,'');document.getElementById('url').textContent=u;
+cydia.href='cydia://url/https://cydia.saurik.com/api/share#?source='+u;sileo.href='sileo://source/'+u;zebra.href='zbra://sources/add/'+u;</script>
+</body></html>
