@@ -3,3 +3,4 @@
 # Find a package's id in Cydia (package page -> Details)
 com.omar.helloworld  Tweaks
 uk.invoxiplaygames.checkmatestore  fix broken apps
+com.skyglow.weatherx  Tweaks
