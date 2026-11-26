@@ -2,4 +2,4 @@
 # Format: package-id  Section Name
 # Find a package's id in Cydia (package page -> Details)
 com.omar.helloworld  Tweaks
-uk.invoxiplaygames.checkmatestore  Tweaks
+uk.invoxiplaygames.checkmatestore  fix old app store
