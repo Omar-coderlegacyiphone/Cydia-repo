@@ -1,0 +1,17 @@
+Package: com.ali.helloworld
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Ali Merheb
+Depends: firmware (>= 14.0)
+Filename: debs/com.ali.helloworld_1.0.0_iphoneos-arm64.deb
+Size: 814
+MD5sum: 777647339f592c385e82aa775766d18d
+SHA1: c0ad8f2507f1a20f5625bb87668dc6eb92b5abce
+SHA256: 85296f5e1f8434d621e85f1b14509230661a93c5de31556a27bc8f177f9b9fe4
+Section: Tweaks
+Description: A sample package to test the repo.
+Author: Ali Merheb
+Depiction: https://omar-coderlegacyiphone.github.io/Cydia-repo/helloworld.html
+Icon: https://omar-coderlegacyiphone.github.io/Cydia-repo/CydiaIcon.png
+Name: Hello World
+

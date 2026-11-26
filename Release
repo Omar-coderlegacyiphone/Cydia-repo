@@ -1,0 +1,18 @@
+Origin: Ali's Repo
+Label: Ali's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Tweaks and tools by Ali Merheb
+MD5Sum:
+ fd08c9a7e80d12806268acefc8a06bf7 606 Packages
+ cecf3525fa7a21549873013fd6d6bdfe 446 Packages.bz2
+ c3a90d2bc7733a59db46fd47c9b03d59 407 Packages.gz
+ 92ecaeffbcf04b750f50bc9a83e92302 480 Packages.xz
+SHA256:
+ 96cfd1ddd2d84a1ddf409d6b02f9105428175c98635b017dcc89e70b60394c7c 606 Packages
+ 33713c737ef205a847f496a829a765d725e0e7841101584469a3c86585895cc7 446 Packages.bz2
+ 31aa588c946065885dbd36e707a7302f6b7b9e5793bfa340933434ce1ab7fbdd 407 Packages.gz
+ fa6cfcc2a66de2cecd58af80243889dbb4cff17a266930026983be9f9d72890d 480 Packages.xz
