@@ -14,7 +14,13 @@ for dir in src/*/; do
   rm -f debs/${id}_*.deb
   dpkg-deb -Zgzip --root-owner-group -b "$tmp" "debs/${id}_${ver}_${arch}.deb" >/dev/null; rm -rf "$tmp"
 done
-dpkg-scanpackages -m debs /dev/null > Packages 2>/dev/null
+# sections.txt: one line per package -> "package.id  Section Name"
+override=/dev/null
+if [ -f sections.txt ]; then
+  override=$(mktemp)
+  grep -v '^\s*#' sections.txt | awk 'NF>=2 {id=$1; $1=""; sub(/^ /,""); gsub(/ /,"_"); print id" optional "$0}' > "$override"
+fi
+dpkg-scanpackages -m debs "$override" > Packages 2>/dev/null
 bzip2 -kf Packages; gzip -kf9 Packages; xz -kf Packages
 {
   echo "Origin: $ORIGIN"; echo "Label: $LABEL"; echo "Suite: stable"; echo "Version: 1.0"
