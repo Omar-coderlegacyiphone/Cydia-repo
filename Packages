@@ -26,7 +26,7 @@ Size: 10744
 MD5sum: 00f9fdd68e8dac3e4c9cfb5b21b024cb
 SHA1: 9c43cde6e81af5abbd12b4f3a3a10c72987de9bd
 SHA256: e1957a600ac8bbf286c0757e08eaf1f6cf0157b71a08f337673d156a55a78d6c
-Section: System
+Section: Experimental_(May_Brick_DeviceMay_Brick_Device!)
 Priority: optional
 Homepage: https://github.com/Omar-coderlegacyiphone/thr0wback
 Description: Boot an older iOS as a second OS on a jailbroken 32-bit iPhone (experimental)
