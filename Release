@@ -1,18 +1,18 @@
-Origin: Ali's Repo
-Label: Ali's Repo
+Origin: Omar's Repo
+Label: Omar's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Tweaks and tools by Ali Merheb
+Description: Tweaks and tools by Omar
 MD5Sum:
- 6ce4bacaa771cfada97b7358e64fff56 1180 Packages
- e26ab1f716553c20c0b13347cc688248 608 Packages.bz2
- eceb49b82fa9cbfeba51013e5264a3e7 526 Packages.gz
- 30c99b447bfa87bea0b6abad56dcdfdd 596 Packages.xz
+ 87d7dc3934da483d32f94d1cbeb4c587 1742 Packages
+ 772c1a2aa20f04d55ea98fb89e6a990c 748 Packages.bz2
+ bd36f88211e96be1dd32d0923126bbb4 652 Packages.gz
+ d796efb3124e75b2e2725e0bf3c4c247 712 Packages.xz
 SHA256:
- 5c1b90a3f5ee415397aa29409baa4858c0ef5a793d4d6d6672ea77ab391fa890 1180 Packages
- 7530eaa6c570a18c99be10d537be5036935976bc9316b038f56a63a811bf65f7 608 Packages.bz2
- ce9ad650812c1585af09a495c6a5b345484610518d260c9e1447ead24d1ea82d 526 Packages.gz
- 05b5d763c2ed6018fc7f31712ab3fae4e99671a72f58374270417673e16e192d 596 Packages.xz
+ a315221abaf53e9af837d7f3fefba88c72c273dcdfcddb41b3548404e8b92236 1742 Packages
+ f348a9f7c0ad802901d48198ee8f0607260dafca44ec49c7f8527b35127ea780 748 Packages.bz2
+ edef2ac8254e3c2384c0b2e96659f828da904b59b8077e3ef40262b43b85032d 652 Packages.gz
+ 47351630e27f2d65c8fa742597e5d2a1a42b1601128808b9a2d3f0185be8d881 712 Packages.xz

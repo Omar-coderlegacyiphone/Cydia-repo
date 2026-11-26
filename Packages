@@ -31,3 +31,19 @@ Depiction: https://omar-coderlegacyiphone.github.io/Cydia-repo/helloworld.html
 Icon: https://omar-coderlegacyiphone.github.io/Cydia-repo/CydiaIcon.png
 Name: Hello World
 
+Package: com.omar.helloworld
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Omar
+Filename: debs/com.omar.helloworld_1.0.0_iphoneos-arm.deb
+Size: 784
+MD5sum: 53f1426a887ff5d5a34f0cf432d3409d
+SHA1: 539c75e1464a0c37d3379a8736dc9c37f54f79b5
+SHA256: 233ecfb72bfd60009cab79218587235f43ebdbfbe4b1f235a28e395b9d06fd6a
+Section: Tweaks
+Description: A sample package to test the repo.
+Author: Omar
+Depiction: http://omar-coderlegacyiphone.github.io/Cydia-repo/helloworld.html
+Icon: http://omar-coderlegacyiphone.github.io/Cydia-repo/CydiaIcon.png
+Name: Hello World
+
