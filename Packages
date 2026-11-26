@@ -26,7 +26,7 @@ Size: 157638
 MD5sum: b77474360f41196a0bc7effc9820db47
 SHA1: f61cf12def3650844fbecde316ab777b2616331e
 SHA256: daaed990882d922a1cfc7f74a5fc3a765825899f254f7226842469333eadb63d
-Section: Tweaks
+Section: fix_broken_apps
 Priority: optional
 Description: Fix iOS's Weather & Stocks apps from iPhoneOS 2 to iOS 7, the widgets in the notification center, and the temperature in the iPad clock app!
 Author: Requis, Electimon
