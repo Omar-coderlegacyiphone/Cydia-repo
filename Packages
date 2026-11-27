@@ -17,15 +17,15 @@ Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/in
 Name: Weather & Stocks
 
 Package: com.thr0wback.booter
-Version: 0.1.9
+Version: 0.1.10
 Architecture: iphoneos-arm
 Maintainer: Thr0wback
 Depends: firmware (>= 4.0)
-Filename: debs/thr0wback_0.1.9_iphoneos-arm.deb
-Size: 19070
-MD5sum: ad4588dd44aa23d4631996bdd8190574
-SHA1: c6d7689bc541b4a8ab267f9e6dfd6d182557b36f
-SHA256: 9e0876b7091bc3fb1969f2e38e716c220fd7d318895de0b6412e7a4a02dc0458
+Filename: debs/thr0wback_0.1.10_iphoneos-arm.deb
+Size: 19240
+MD5sum: 1b29b9ccdd2160cdac8e708f058be4ec
+SHA1: 4bb32418d65dc9ea5c3a49ef548d80fba1f013b6
+SHA256: 4cd060598ac0bde9ba492daab7bc9b1057017e17e11508c371fb6f5f0263e84f
 Section: Experimental_(May_Brick_DeviceMay_Brick_Device!)
 Priority: optional
 Homepage: https://github.com/Omar-coderlegacyiphone/thr0wback
