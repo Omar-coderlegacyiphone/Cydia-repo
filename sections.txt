@@ -4,5 +4,5 @@
 com.omar.helloworld  Tweaks
 uk.invoxiplaygames.checkmatestore  fix broken apps
 com.skyglow.weatherx  fix broken apps
-com.thr0wback.booter  Experimental (May Brick DeviceMay Brick Device!)
-com.thr0wback.app  Utilities
+com.thr0wback.booter  Experimental (May Brick Device)
+com.thr0wback.app  Experimental (May Brick Device)
