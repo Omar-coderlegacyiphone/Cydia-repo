@@ -81,6 +81,22 @@ Description: iOS era "slide to downgrade" setup screen replica (HTML), built on 
 Author: User
 Name: Thr0wback Setup Screen
 
+Package: com.throwback.setup
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: User
+Depends: firmware (>= 1.0)
+Filename: debs/thr0wback-setup_1.1_iphoneos-arm.deb
+Size: 6168
+MD5sum: 4aece2500b12b42bcd68ac1cc8c17e17
+SHA1: f59e4729a2f979057632eeefa482818a1bce12d3
+SHA256: 19d10271e06961d2b51ea564554cb86f5462838e5341a29acdc0e76f5c7c3043
+Section: Experimental_(May_Brick_Device)
+Priority: optional
+Description: iOS era "slide to downgrade" setup screen replica, installed as a home-screen WebClip (built on the JailbreakMe 3.0 slider UI assets).
+Author: User
+Name: Thr0wback Setup Screen
+
 Package: uk.invoxiplaygames.checkmatestore
 Version: 1.0.1
 Architecture: iphoneos-arm
