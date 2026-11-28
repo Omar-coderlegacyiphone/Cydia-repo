@@ -75,7 +75,7 @@ Size: 3956
 MD5sum: 3b973d0e2a8fbf1368f3266d53bf2646
 SHA1: 42033f28890a489034aafd89012d169609443c51
 SHA256: 361529f0fd61b37fea1dbd04c993c2132abf4e19e7f173ee319c2d50a4497d59
-Section: Themes
+Section: Experimental_(May_Brick_Device)
 Priority: optional
 Description: iOS 5 era "slide to downgrade" setup screen replica (HTML), built on the JailbreakMe 3.0 slider UI assets.
 Author: User
