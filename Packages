@@ -30,6 +30,20 @@ Priority: optional
 Description: Welcome to thr0wback classic slide-to-boot screen for iOS 1-6.
 Name: thr0wback
 
+Package: com.thr0wback.app
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: thr0wback Dev <dev@thr0wback.local>
+Filename: debs/com.thr0wback.all-in-one_1.0.1_iphoneos-arm.deb
+Size: 3882
+MD5sum: 1955c60f496de2c0061c8a8387874305
+SHA1: ce213493ceaffd86f48185ae6c74853fe3a5e064
+SHA256: 2624bf52a2b808f15e9e38ee2e96a2b4667353a5651a2f7e7771f75520222be3
+Section: Experimental_(May_Brick_Device)
+Priority: optional
+Description: Welcome to thr0wback classic slide-to-boot screen for iOS 1-6.
+Name: thr0wback
+
 Package: com.thr0wback.booter
 Version: 0.1.10
 Architecture: iphoneos-arm
