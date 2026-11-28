@@ -65,6 +65,22 @@ Description: Boot an older iOS as a second OS on a jailbroken 32-bit iPhone (exp
 Author: Thr0wback
 Name: Thr0wback
 
+Package: com.throwback.setup
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: User
+Depends: firmware (>= 5.0)
+Filename: debs/thr0wback-setup_1.0_iphoneos-arm.deb
+Size: 3956
+MD5sum: 3b973d0e2a8fbf1368f3266d53bf2646
+SHA1: 42033f28890a489034aafd89012d169609443c51
+SHA256: 361529f0fd61b37fea1dbd04c993c2132abf4e19e7f173ee319c2d50a4497d59
+Section: Themes
+Priority: optional
+Description: iOS 5 era "slide to downgrade" setup screen replica (HTML), built on the JailbreakMe 3.0 slider UI assets.
+Author: User
+Name: Thr0wback Setup Screen
+
 Package: uk.invoxiplaygames.checkmatestore
 Version: 1.0.1
 Architecture: iphoneos-arm
