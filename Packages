@@ -16,6 +16,20 @@ Author: Requis, Electimon
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
 Name: Weather & Stocks
 
+Package: com.thr0wback.app
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: thr0wback Dev <dev@thr0wback.local>
+Filename: debs/com.thr0wback.all-in-one_1.0.0_iphoneos-arm.deb
+Size: 3932
+MD5sum: d9e73aa3626c332ed9e32f8f9865f589
+SHA1: e30e3e2a343d3b6cb8cc70e8322ba3d1c76b2fad
+SHA256: af22f5156866b0ed4ce0c5fb89d928a4bf36ee151af1fd579d8d26fc68b8c50d
+Section: Utilities
+Priority: optional
+Description: Welcome to thr0wback classic slide-to-boot screen for iOS 1-6.
+Name: thr0wback
+
 Package: com.thr0wback.booter
 Version: 0.1.10
 Architecture: iphoneos-arm
