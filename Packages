@@ -25,7 +25,7 @@ Size: 3932
 MD5sum: d9e73aa3626c332ed9e32f8f9865f589
 SHA1: e30e3e2a343d3b6cb8cc70e8322ba3d1c76b2fad
 SHA256: af22f5156866b0ed4ce0c5fb89d928a4bf36ee151af1fd579d8d26fc68b8c50d
-Section: Utilities
+Section: Experimental_(May_Brick_Device)
 Priority: optional
 Description: Welcome to thr0wback classic slide-to-boot screen for iOS 1-6.
 Name: thr0wback
@@ -40,7 +40,7 @@ Size: 19240
 MD5sum: 1b29b9ccdd2160cdac8e708f058be4ec
 SHA1: 4bb32418d65dc9ea5c3a49ef548d80fba1f013b6
 SHA256: 4cd060598ac0bde9ba492daab7bc9b1057017e17e11508c371fb6f5f0263e84f
-Section: Experimental_(May_Brick_DeviceMay_Brick_Device!)
+Section: Experimental_(May_Brick_Device)
 Priority: optional
 Homepage: https://github.com/Omar-coderlegacyiphone/thr0wback
 Description: Boot an older iOS as a second OS on a jailbroken 32-bit iPhone (experimental)
