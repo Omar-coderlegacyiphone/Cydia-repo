@@ -71,10 +71,10 @@ Architecture: iphoneos-arm
 Maintainer: User
 Depends: firmware (>= 1.0)
 Filename: debs/thr0wback-setup_1.0_iphoneos-arm.deb
-Size: 3960
-MD5sum: 5207ccb56385c63cf3497a7550fa996e
-SHA1: bed5e038d21773f3f8abb2b1233462f9930ddfa6
-SHA256: f23fd487faff7eeed84d97abf38121fd44b395ff90b524d1003cfc4c2d0bdad8
+Size: 4078
+MD5sum: 002ebda439ead32678138cb9b3311be2
+SHA1: db98ef04b8a9daa0d9149abd835cbe04e0f50a01
+SHA256: 6d9ae3c2f25e188d544746669066165dfc34be883e970759260b4efa9330ceaf
 Section: Experimental_(May_Brick_Device)
 Priority: optional
 Description: iOS era "slide to downgrade" setup screen replica (HTML), built on the JailbreakMe 3.0 slider UI assets.
